@@ -73,8 +73,7 @@ for (const auto &D : ASTContext.getTranslationUnitDecl()->decls()) {
 # DumpClassExtents.cpp Source View
 This screenshot shows the custom DumpClassExtents.cpp implementation inside Clang’s frontend, where class declaration ranges are extracted and printed with filename and line span.
 
-<img width="792" height="573" alt="Image" src="https://github.com/user-attachments/assets/8f98281d-af43-4225-b3be-d9585827e834" />
-
+<img width="1024" height="832" alt="Image" src="https://github.com/user-attachments/assets/3c1d1f0d-5711-405d-b06c-5ecb66c6dbc2" />
 
 <img width="1363" height="808" alt="Image" src="https://github.com/user-attachments/assets/21fee096-1923-44a6-9336-8e4c8f500d74" />
 1. **Command-Line Dump Example:**  
