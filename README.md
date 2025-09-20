@@ -25,15 +25,13 @@ This project extends the **Clang/LLVM frontend** to extract **C++ class lexical 
 - Outputs in readable format for further tooling  
 - Lightweight and easy to integrate  
 <img width="708" height="354" alt="Image" src="https://github.com/user-attachments/assets/d27052b3-5dff-4530-bf5e-5adae8afb1eb" />
----
 
 ## 🔹 Installation and build
 
 1. **Clone the repository:**  
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+https://github.com/llvm/llvm-project
 ```
 
 2. **Install LLVM & Clang (Ubuntu):**  
@@ -72,12 +70,18 @@ for (const auto &D : ASTContext.getTranslationUnitDecl()->decls()) {
     }
 }
 ```
+# DumpClassExtents.cpp Source View
+This screenshot shows the custom DumpClassExtents.cpp implementation inside Clang’s frontend, where class declaration ranges are extracted and printed with filename and line span.
+
+<img width="792" height="573" alt="Image" src="https://github.com/user-attachments/assets/8f98281d-af43-4225-b3be-d9585827e834" />
+<img width="898" height="531" alt="Image" src="https://github.com/user-attachments/assets/cec523c6-bb6f-44c2-9475-134768374510" />
 
 1. **Command-Line Dump Example:**  
 
 ```bash
 clang -cc1 -fdump-class-extents file.cpp
 ```
+
 
 
 
