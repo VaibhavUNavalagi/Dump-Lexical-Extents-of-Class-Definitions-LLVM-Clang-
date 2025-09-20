@@ -88,12 +88,11 @@ cd llvm-project/build
 cmake --build . --target clang
 ```
 
-## 4. Successful Clang Build Output
-This figure shows the final successful build of the customized Clang compiler using CMake.
+## 4. Output
+<img width="500" height="536" alt="Image" src="https://github.com/user-attachments/assets/7a6b33af-1926-48ea-ad6b-c5495c9fec06" />
 
-<img width="1040" height="653" alt="Image" src="https://github.com/user-attachments/assets/5034d808-7b25-4fc5-a9cc-1b721aafedb0" />
-
-
+Terminal:
+<img width="775" height="149" alt="Image" src="https://github.com/user-attachments/assets/f8364b98-86a2-4c32-8303-5dacd7a2c05b" />
 
 
 
