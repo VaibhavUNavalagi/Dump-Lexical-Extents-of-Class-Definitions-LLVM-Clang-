@@ -92,8 +92,7 @@ cmake --build . --target clang
 <img width="305" height="345" alt="Image" src="https://github.com/user-attachments/assets/b18c884b-51c9-40bc-8cef-b5bb2f1145c3" />
 
 ## 5. Terminal output:
-<img width="775" height="149" alt="Image" src="https://github.com/user-attachments/assets/f8364b98-86a2-4c32-8303-5dacd7a2c05b" />
-
+<img width="893" height="141" alt="Image" src="https://github.com/user-attachments/assets/9a59a411-bfa9-41a9-b3d9-3db2e3f19f5c" />
 
 
 
