@@ -24,7 +24,7 @@ This project extends the **Clang/LLVM frontend** to extract **C++ class lexical 
 - Compatible with modern C++ standards  
 - Outputs in readable format for further tooling  
 - Lightweight and easy to integrate  
-
+<img width="708" height="354" alt="Image" src="https://github.com/user-attachments/assets/d27052b3-5dff-4530-bf5e-5adae8afb1eb" />
 ---
 
 ## 🔹 Installation and build
