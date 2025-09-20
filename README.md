@@ -27,17 +27,35 @@ This project extends the **Clang/LLVM frontend** to extract **C++ class lexical 
 
 ---
 
-## 🔹 Installation
+## 🔹 Installation and build
 
 1. **Clone the repository:**  
 
 ```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
+```
 
 2. **Install LLVM & Clang (Ubuntu):**  
 
 ```bash
 sudo apt update
 sudo apt install clang llvm
+```
+
+And similarly, for **Mac (Homebrew)**:  
+3. **Install LLVM & Clang (Mac - Homebrew):**  
+
+```bash
+brew install llvm
+```
+
+And for **Build the project**:  
+4. **Build the project:**  
+
+```bash
+mkdir build && cd build
+cmake ..
+make
+```
 
