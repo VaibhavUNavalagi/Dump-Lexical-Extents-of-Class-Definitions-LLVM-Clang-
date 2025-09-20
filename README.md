@@ -70,19 +70,18 @@ for (const auto &D : ASTContext.getTranslationUnitDecl()->decls()) {
     }
 }
 ```
-## DumpClassExtents.cpp Source View
+## 1. DumpClassExtents.cpp Source View
 This screenshot shows the custom DumpClassExtents.cpp implementation inside Clang’s frontend, where class declaration ranges are extracted and printed with filename and line span.
 
 <img width="1024" height="832" alt="Image" src="https://github.com/user-attachments/assets/3c1d1f0d-5711-405d-b06c-5ecb66c6dbc2" />
 
-## DumpClassExtents.h Header File
+## 2. DumpClassExtents.h Header File
 This figure displays the declaration of the custom DumpClassExtentsAction, which extends Clang’s ASTFrontendAction 
 
 <img width="1363" height="808" alt="Image" src="https://github.com/user-attachments/assets/21fee096-1923-44a6-9336-8e4c8f500d74" />
 
-1. **Building Clang with CMake in WSL**
+## 3. Building Clang with CMake in WSL
 This screenshot shows the terminal command used to compile the modified Clang source using cmake --build . --target clang
-
 
 ```bash
 cd llvm-project/build
