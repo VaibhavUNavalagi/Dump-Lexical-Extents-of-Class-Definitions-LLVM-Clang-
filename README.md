@@ -80,10 +80,13 @@ This figure displays the declaration of the custom DumpClassExtentsAction, which
 
 <img width="1363" height="808" alt="Image" src="https://github.com/user-attachments/assets/21fee096-1923-44a6-9336-8e4c8f500d74" />
 
-1. **Command-Line Dump Example:**  
+1. **Building Clang with CMake in WSL**
+This screenshot shows the terminal command used to compile the modified Clang source using cmake --build . --target clang
+
 
 ```bash
-clang -cc1 -fdump-class-extents file.cpp
+cd llvm-project/build
+cmake --build . --target clang
 ```
 
 
