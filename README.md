@@ -88,10 +88,10 @@ cd llvm-project/build
 cmake --build . --target clang
 ```
 
-## 4. Output
-<img width="500" height="536" alt="Image" src="https://github.com/user-attachments/assets/7a6b33af-1926-48ea-ad6b-c5495c9fec06" />
+## 4. Testing C++ file:
+<img width="305" height="345" alt="Image" src="https://github.com/user-attachments/assets/b18c884b-51c9-40bc-8cef-b5bb2f1145c3" />
 
-Terminal:
+## 5. Terminal output:
 <img width="775" height="149" alt="Image" src="https://github.com/user-attachments/assets/f8364b98-86a2-4c32-8303-5dacd7a2c05b" />
 
 
