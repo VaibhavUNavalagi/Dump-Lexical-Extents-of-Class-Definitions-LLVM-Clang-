@@ -1,4 +1,4 @@
-# Dump Lexical Extents of Class Definitions (LLVM / Clang) 🖥️
+# Dump Lexical Extents of Class Definitions(LLVM/Clang) 🖥️
 
 ![LLVM Logo](https://llvm.org/favicon.ico)
 
@@ -34,3 +34,10 @@ This project extends the **Clang/LLVM frontend** to extract **C++ class lexical 
 ```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
+
+2. **Install LLVM & Clang (Ubuntu):**  
+
+```bash
+sudo apt update
+sudo apt install clang llvm
+
