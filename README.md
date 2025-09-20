@@ -73,5 +73,13 @@ for (const auto &D : ASTContext.getTranslationUnitDecl()->decls()) {
 }
 ```
 
+1. **Command-Line Dump Example:**  
+
+```bash
+clang -cc1 -fdump-class-extents file.cpp
+```
+
+
+
 
 
