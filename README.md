@@ -59,3 +59,19 @@ cmake ..
 make
 ```
 
+## 🔹 Code Snippets
+
+1. **AST Traversal Example:**  
+
+```bash
+for (const auto &D : ASTContext.getTranslationUnitDecl()->decls()) {
+    if (const CXXRecordDecl *CXXDecl = dyn_cast<CXXRecordDecl>(D)) {
+        llvm::outs() << "Class: " << CXXDecl->getNameAsString() << "\n";
+        llvm::outs() << "Start Line: " << getStartLine(CXXDecl) << "\n";
+        llvm::outs() << "End Line: " << getEndLine(CXXDecl) << "\n";
+    }
+}
+```
+
+
+
